@@ -1,0 +1,21 @@
+[build-system]
+requires = ['setuptools>=82']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'elfs'
+version = '0.1.0'
+requires-python = '>=3.12'
+dependencies = [
+    'numpy>=2.3',
+    'pandas>=2.3',
+    'pm4py>=2.7',
+    'tabulate>=0.10',
+    'tqdm>=4.67',
+]
+
+[project.scripts]
+elfs = 'elfs.cli:main'
+
+[tool.setuptools.packages.find]
+where = ['src']
