@@ -410,4 +410,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 /models/
-/logs/
+/logs/.idea/
