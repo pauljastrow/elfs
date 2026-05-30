@@ -11,8 +11,14 @@ analysis to compare process models.
 
 ## Installation
 
+Virtual Environment
 ```bash
 cd elfs
+py -3.12 -m venv .venv
+.venv\Scripts\activate
+```
+
+```bash
 pip install -e .
 ```
 
